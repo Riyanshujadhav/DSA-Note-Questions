@@ -1,10 +1,6 @@
 
-
-
-
-
 public class qusestion_2_ {
-    static int Gcd(int a,int b){
+    static int gcd(int a,int b){
         while(b!=0){
             int t=a%b;
             a=b;
@@ -13,8 +9,8 @@ public class qusestion_2_ {
     }
     public static void main(String[] args) {
         int a=18;
-        int b=12;
-        int result= Gcd(a,b);
+        int b=54;
+        int result= gcd(a,b);
         System.out.println(result);
         
     }
