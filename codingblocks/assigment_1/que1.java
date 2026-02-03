@@ -16,11 +16,20 @@
     // Print "Negative" if the number is less than 0.
 
     // Print "Zero" if the number is exactly 0.
+import java.util.*;
 
-
-public class que_1_ {
-    public static void main(String[] args) {
-        System.out.println("hell");
-    }
+public class que1 {
+    public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        if(n==0){
+            System.out.println("Zero");
+        }else if( n>0){
+            System.out.println("Positive");
+        }else {
+            System.out.println("Positive");
+        }
+        sc.close();
+    } 
     
 }
