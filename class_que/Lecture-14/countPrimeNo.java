@@ -10,9 +10,9 @@ public class countPrimeNo {
         int min= Math.min(a, b);
         int max= Math.max(a, b);
         int count=0;
+        boolean isprime=true;
         for(int i=Math.max(2,min);i<=max;i++){
             
-            boolean isprime=true;
                 for(int j=2;j<=Math.sqrt(i);j++){
                     if(i%j==0){
                         isprime=false;
