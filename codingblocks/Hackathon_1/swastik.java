@@ -26,8 +26,6 @@ public class swastik {
                 }else System.out.print(" ");
             }
             System.out.println();
-        }
-
-        
+        } 
     }
 }
