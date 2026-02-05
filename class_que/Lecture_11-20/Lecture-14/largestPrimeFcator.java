@@ -3,11 +3,22 @@ import java.util.*;
 public class largestPrimeFcator {
 
       static int  primeno(int n){
-         for(int i=1;i<=Math.sqrt(n);i++){1qasx1qazZ
-
-         }
-
+         boolean isprime=true;
+         if(n<=1)
+            isprime= false;
+         
+         for(int i=2;i<=Math.sqrt(n);i++){
+            if(n%i==0){
+               isprime =false;
+               break; 
+            } 
+            
+            if(isprime){
+               return largestpf=i;
+            }
+         }   
             return 0;
+         
       }
 
 
@@ -16,5 +27,6 @@ public class largestPrimeFcator {
    Scanner sc=new Scanner(System.in);
       int n=sc.nextInt();
       int result= primeno(n);
+      System.out.println(result);
    } 
 }
