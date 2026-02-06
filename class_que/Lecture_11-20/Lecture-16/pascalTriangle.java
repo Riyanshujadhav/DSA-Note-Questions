@@ -1,6 +1,5 @@
 import java.util.*;
 public class pascalTriangle {
-    
     public static void main(String[] args) {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
@@ -8,7 +7,7 @@ public class pascalTriangle {
             int val=1;
             for(int j=0;j<=i;j++){
                 System.out.print(val+" ");
-                val=val*((i-j)/(j+1));
+                val=val*(i-j)/(j+1);
             }System.out.println();
         }
     }
