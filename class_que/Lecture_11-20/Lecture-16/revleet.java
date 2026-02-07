@@ -17,7 +17,8 @@ public class revleet {
 }
    public static void main(String[] args) {
     int n=3;
-        reverse r=new reverse(n);
-      int res=r.reverse(n);
+      //  reverse r=new reverse(n);
+      
+      //int res=r.reverse(n);
    } 
 }
