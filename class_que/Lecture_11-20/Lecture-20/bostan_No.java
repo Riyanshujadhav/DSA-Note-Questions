@@ -17,7 +17,7 @@ public class bostan_No {
         Scanner sc=new Scanner(System.in);
         int n=sc.nextInt();
         int digiSum=digitsum(n);
-        System.out.println(digiSum);
+        System.out.println("the sum is:"+digiSum);
         
     }
 }
