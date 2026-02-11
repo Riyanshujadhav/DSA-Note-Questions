@@ -1,3 +1,10 @@
+// *           * 
+//   *       *   
+//     *   *     
+//       *       
+//     *   *     
+//   *       *   
+// *           * 
 public class Pattern_43_ {
     public static void main(String[] args) {
         int n=7;
