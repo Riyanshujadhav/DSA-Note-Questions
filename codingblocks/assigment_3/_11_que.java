@@ -1,8 +1,7 @@
 import java.util.Scanner;
 
-public class _09_que {
-
-    public static int revers(int n){
+public class _11_que {
+     public static int revers(int n){
         int digit=0;
         while (n!=0) {
             int temp=n%10;
