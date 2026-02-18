@@ -1,3 +1,42 @@
+import java.util.Scanner;
+import java.util.Vector;
+
 public class _13_que {
-    
+    public static Vector<Integer> convert(int n){
+        
+        Vector <Integer> a =new Vector(); 
+        while(n!=0){
+            int k=n%10;
+            a.add(k);
+        }   
+        return a;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int n=sc.nextInt();
+        Vector <Integer> number =convert(n); 
+        Vector <Integer> ans(number.capacity()+1);
+        
+    }
 }
+
+
+
+
+
+// while(n!=0){
+        //     int temp=n%10;
+        //     if(temp==3){
+        //         sum=sum*10+5;
+        //     }else if (temp==2) {
+        //         sum=sum*10+4;
+        //     }else if (temp==1) {
+        //         sum=sum*10+3;
+        //     }else if(temp==4){
+        //         sum=sum*10+2;
+        //     }else if(temp==5){
+        //         sum=sum*10+1;
+        //     }
+        //     n/=10;
+        // }
