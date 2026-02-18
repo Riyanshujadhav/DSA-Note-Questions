@@ -14,7 +14,7 @@ public class largestPrimeFcator {
             } 
             
             if(isprime){
-               return largestpf=i;
+               return i;
             }
          }   
             return 0;
