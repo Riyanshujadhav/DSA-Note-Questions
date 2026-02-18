@@ -3,7 +3,7 @@
 // A number (N1)
 // A number (N2)
 // Write a function which returns the LCM of N1 and N2. Print the value returned
-
+import  java.util.*;
 public class _06_que {
    public static int gcd(int n1, int n2){
 		while(n2!=0){
