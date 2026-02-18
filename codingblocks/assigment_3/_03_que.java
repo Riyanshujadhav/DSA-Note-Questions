@@ -1,3 +1,4 @@
+//Take N as input, Calculate it's reverse also Print the reverse.
 import java.util.Scanner;
 
 public class _03_que {
