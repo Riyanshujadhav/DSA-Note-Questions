@@ -16,7 +16,7 @@ public class insertion {
                 arr[j+1]=arr[j];
                 j--;
             }
-            arr[j+1]=key;
+             arr[j+1]=key;
             
         }
         for(int i=0;i<n;i++){
