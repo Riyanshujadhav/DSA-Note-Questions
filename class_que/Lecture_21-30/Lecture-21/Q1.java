@@ -11,20 +11,11 @@ class Solution {
         } return new int[]{-1,-1}; 
     }
 }
-
-
-for(int 1=1;i<len;i++){
-    if(numi!=numuniq)
-        uniq++
-    num uniq=numi
-}return unq+1;
-
-
-
-
-
-
-
+// for(int 1=1;i<len;i++){
+//     if(numi!=numuniq)
+//         uniq++
+//     num uniq=numi
+// }return unq+1;
 public class Q1 {
     public static void main(String[] args) {
         Scanner sc= new Scanner(System.in);
