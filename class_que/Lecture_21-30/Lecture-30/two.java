@@ -28,6 +28,7 @@ public class two {
                     System.out.print(list.get(bottom).get(i));
                 }bottom--;
             }
+            
             if(left<=right){
                 for (int i = bottom; i >=top; i--) {
                     System.out.print(list.get(i).get(left));
