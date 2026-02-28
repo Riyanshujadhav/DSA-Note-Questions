@@ -14,7 +14,8 @@ public class two {
             for (int j = 0; j < c; j++) {
                 list.get(i).add(sc.nextInt());
             }
-        }       
+        }
+               
         int left=0,right=r-1,top=0, bottom=r-1;
         while(left<=right && top<=bottom){
             for (int i = left; i <=right; i++) {
