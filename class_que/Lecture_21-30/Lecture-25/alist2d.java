@@ -15,6 +15,7 @@ public class alist2d {
         for (int i = 0; i < rows; i++) {
             for (int j = 0; j < cols; j++) {
                 list.get(i).add(sc.nextInt());
+                
             }
         }
         System.out.println("2D ArrayList:");
